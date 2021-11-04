@@ -1,0 +1,40 @@
+.Logo{
+    background-color: aqua;
+}
+.Menu{
+    background-color: aquamarine;
+}
+.NewsFeed{
+    background-color: blue;
+}
+.Listofsomething{
+    background-color: brown;
+}
+.Nav{
+    background-color: burlywood;
+}
+.Footer{
+    background-color: chartreuse;
+}
+
+body{
+    display:grid;
+    grid-template-columns: [a] 100px  [b] 65fr  [c] 35fr [d];
+    grid-template-rows:  [first] 100px [second] 300px [third] 150px [fourth];
+    min-height: 100vh;
+    margin:0;
+}
+.Menu{
+    grid-column:2/4;
+}
+.Footer{
+    grid-column: 1/3;
+    grid-row:3/4;
+}
+.Nav{
+    grid-column: 3/4;
+    grid-row: 2/4
+}
+.Listofsomething{
+    min-height: 300px;
+}
