@@ -20,7 +20,7 @@
 body{
     display:grid;
     grid-template-columns: [a] 100px  [b] 65fr  [c] 35fr [d];
-    grid-template-rows:  [first] 100px [second] 300px [third] 150px [fourth];
+    grid-template-rows:  [first] 100px [second] calc(100vh - 250px) [third] 150px [fourth];
     min-height: 100vh;
     margin:0;
 }
