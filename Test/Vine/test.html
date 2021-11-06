@@ -10,52 +10,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display:ital@1&family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Fonts and img.css">
   <title>Le corte</title>
 </head>
 <body>
   <section class="header">
+    <img class="header_image" src="img/headerimg.png">
     <div class="headerinfo">
-    <p>Новокузнечный переулок 4/1</p>
-    <p>8(812)123-45</p>
+      <p class="header_address">Новокузнечный переулок 4/1</p>
+      <p class="header_phone_number">8(812)123-45</p>
     </div>
-      <div>
-        <svg class="headerlineup"
-       viewBox="0 0 1110 1" fill="none"
-       xmlns="http://www.w3.org/2000/svg">
-       <line y1="0.5" x2="1110" y2="0.5" stroke="white"/>
-      </svg>
-      <svg class="headerlinedown"
-       viewBox="0 0 1110 1" fill="none"
-       xmlns="http://www.w3.org/2000/svg">
-       <line y1="0.5" x2="1110" y2="0.5" stroke="white"/>
-      </svg>
-      <svg class="headerline_catalog"
-       viewBox="0 0 1110 1" fill="none"
-       xmlns="http://www.w3.org/2000/svg">
-       <line y1="0.5" x2="1110" y2="0.5" stroke="white"/>
-      </svg>
-      <svg class="headerline_dostavka"
-       viewBox="0 0 1110 1" fill="none"
-       xmlns="http://www.w3.org/2000/svg">
-       <line y1="0.5" x2="1110" y2="0.5" stroke="white"/>
-      </svg>
-      <svg class="headerline_kontakt"
-       viewBox="0 0 1110 1" fill="none"
-       xmlns="http://www.w3.org/2000/svg">
-       <line y1="0.5" x2="1110" y2="0.5" stroke="white"/>
-      </svg>
-      </div>
-      <div class="headercategories">
-        <a href="?">Каталог</a>
-        <a href="?">Доставка</a>
-        <a href="?">Коллекции</a>
-        <a href="?">Контакты</a>
-      </div>
-      <div class="headerbutton">
-      <button id="button_card">ВИННАЯ КАРТА</button>
-      <button id="button_degustation">ДЕГУСТАЦИЯ</button> 
-      </div>
+    <div class="header_line">
+      <img class="line_top" src="img/lineup.svg">
+      <img class="line_bottom" src="img/lineup.svg">
+      <img class="line_vertical_catalog" src="img/bottomline.svg">
+      <img class="line_vertical_collection" src="img/bottomline.svg">
+      <img class="line_vertical_contact" src="img/bottomline.svg">
+    </div>
+    <div class="header_categories">
+      <a class="catalog" href="?">Каталог</a>
+      <a class="delivery" href="?">Доставка</a>
+      <a class="collection" href="?">Коллекции</a>
+      <a class="contact" href="?">Контакты</a>
+    </div>  
+    <div class="header_button">
+      <button class="button_card">
+        <p class="button_text_card">ВИННАЯ КАРТА</p>
+      </button>
+      <button class="button_degustation">
+        <p class="button_text_degustation">ДЕГУСТАЦИЯ</p>
+      </button>
+    </div>
       
   </section>
   <section>
