@@ -1,0 +1,79 @@
+@import url(font.css);
+*{
+    margin: 0;
+    border: 0;
+}
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+}
+.main_logo{
+    position: absolute;
+    left:165px;
+    top:19px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+.header_navigation{
+    position: absolute;
+    width: 440px;
+    height: 21px;
+    left: 500px;
+    top: 31px;
+
+    display:flex;
+    justify-content: space-between;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color:#FFFFFF
+}
+.header_button{
+    position: absolute;
+    width: 157px;
+    height: 53px;
+    left: 1118px;
+    top: 15px;
+
+    background: #4080BF;
+    border-radius: 10px;
+
+
+}
+.header_contact_us{
+    position: absolute;
+    left: 1145px;
+    right: 193px;
+    top: 27.5px;
+    bottom: 25.47%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+
+color: #FFFFFF;
+}
