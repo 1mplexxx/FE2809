@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    width: 1903px;
+}
+.flame{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    left:50px;
+    top:765px;
+    
+    display: flex;
+}
+.main{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
+.name{
+    position: absolute;
+    left:800px;
+}
+.about_me{
+    position: absolute;
+    top:80px
+}
+.information{
+    position: absolute;
+    top:110px;
+
+}
+.own_education{
+    position: absolute;
+    top:150px;
+    left:1500px;
+}
+.university{
+    position: absolute;
+    top:155px;
+    left:1650px;
+}
+.engineer{
+    position: absolute;
+    top:233px;
+    left:1730px;
+}
+.education{
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
+.tech-skils{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #ffff;
+}
+.languages{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
