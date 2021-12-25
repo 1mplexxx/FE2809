@@ -86,3 +86,28 @@ body{
     top:80px;
     left:1750px;
 }
+.games{
+    position: absolute;
+    color:#fff;
+    left:1400px;
+    top:600px;
+    font-size: 24px;
+}
+.game_bullseye-game{
+    text-decoration: none;
+    color:#fff;
+}
+.game_x-o{
+    position: absolute;
+    text-decoration: none;
+    color:#fff;
+    top:60px;
+    left:0px;
+}
+.game_python{
+    position: absolute;
+    text-decoration: none;
+    color:#fff;
+    top:90px;
+    left:0px;
+}
